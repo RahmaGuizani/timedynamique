@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Inputs-value {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  background-color: rgb(164, 202, 231);
+  border-color: black;
+  border-radius: 2vw;
+  width: 100%;
+  margin-top: 20vw;
+}
+input {
+  width: 23vw;
+  height: 20vw;
+  border-radius: 0.02vw;
+  border: none;
+  font-size: 15vw;
+  margin-left: 5vw;
+  background-color: rgb(164, 202, 231);
+}
+.Title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8vw;
+}
+.button1 {
+  background-color: greenyellow;
+  position: absolute;
+  top: 60vw;
+  left: 25vw;
+  width: 15vw;
+  height: 10vw;
+  border: solid;
+  border-color: none;
+  border-radius: 2vw;
+}
+.button2 {
+  background-color: red;
+  position: absolute;
+  top: 60vw;
+  left: 60vw;
+  width: 15vw;
+  height: 10vw;
+  border: solid;
+  border-color: none;
+  border-radius: 2vw;
+}
+.heure {
+  position: relative;
+  left: 5vw;
+  top: 20vw;
+  font-size: 6vw;
+}
+.minute {
+  position: relative;
+  left: 3vw;
+  top: 20vw;
+  font-size: 6vw;
+}
+.second {
+  position: relative;
+  left: -4vw;
+  top: 20vw;
+  font-size: 6vw;
+}
